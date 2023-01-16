@@ -20,7 +20,13 @@ public class Main {
         clientes.add("neia");
         clientes.add("nina");
         clientes.add("Kelly");
-        clientes.add("xena");
+        clientes.add("Xena");
+
+        clientes.remove(0);
+        //clientes.clear();
+        System.out.println(clientes.size());
+        System.out.println(clientes.isEmpty());
+
 
         System.out.println(clientes);
 
