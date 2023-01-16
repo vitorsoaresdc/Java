@@ -12,13 +12,15 @@ public class Main {
         func2.comer();
         func2.dormir();
 
-        System.out.println("--------------------Array--------------------");
+        System.out.println("--------------------ArrayList--------------------");
 
         ArrayList<String> clientes = new ArrayList<>();
         clientes.add("Vitor");
         clientes.add("Dulce");
         clientes.add("neia");
         clientes.add("nina");
+        clientes.add("Kelly");
+        clientes.add("xena");
 
         System.out.println(clientes);
 
