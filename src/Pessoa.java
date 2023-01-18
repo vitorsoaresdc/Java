@@ -1,4 +1,4 @@
-public abstract class Pessoa implements TesteInterface {
+public abstract  class Pessoa implements TesteInterface {
     protected String nome;
     protected int idade;
     protected String cpf;
